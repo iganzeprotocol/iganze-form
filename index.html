@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Iganze Protocol Wedding Services | Professional Wedding Planning & Coordination</title>
+    <meta name="title" content="Iganze Protocol Wedding Services | Professional Wedding Planning & Coordination">
+    <meta name="description"
+        content="Register for Iganze Protocol's professional wedding services. Expert wedding planning, coordination, and protocol services to make your special day unforgettable. Book your consultation today.">
+    <meta name="keywords"
+        content="iganze protocol, wedding services, wedding planning, wedding coordination, wedding protocol, event planning, marriage ceremony, wedding consultation, Rwanda weddings, professional wedding services, wedding planner">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="Iganze Protocol">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://iganzeprotocol.github.io/iganze-form/">
+    <meta property="og:title" content="Iganze Protocol Wedding Services | Professional Wedding Planning">
+    <meta property="og:description"
+        content="Register for Iganze Protocol's professional wedding services. Expert wedding planning, coordination, and protocol to make your special day unforgettable.">
+    <meta property="og:image" content="https://iganzeprotocol.github.io/iganze-form/assets/og-image.png">
+    <meta property="og:site_name" content="Iganze Protocol">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://iganzeprotocol.github.io/iganze-form/">
+    <meta property="twitter:title" content="Iganze Protocol Wedding Services">
+    <meta property="twitter:description"
+        content="Register for professional wedding services. Expert wedding planning, coordination, and protocol for your special day.">
+    <meta property="twitter:image" content="https://iganzeprotocol.github.io/iganze-form/assets/twitter-image.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iganzeprotocol.github.io/iganze-form/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Iganze Protocol",
+        "description": "Professional wedding planning, coordination, and protocol services",
+        "url": "https://iganzeprotocol.github.io/iganze-form/",
+        "logo": "https://iganzeprotocol.github.io/iganze-form/logo.svg",
+        "serviceType": "Wedding Services",
+        "priceRange": "$$",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+250-XXX-XXX-XXX",
+            "contactType": "Customer Service",
+            "areaServed": "RW",
+            "availableLanguage": ["English", "Kinyarwanda", "French"]
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Rwanda"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "RW"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Wedding Service Registration",
+        "description": "Register for Iganze Protocol wedding services and consultation",
+        "url": "https://iganzeprotocol.github.io/iganze-form/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://iganzeprotocol.github.io/iganze-form/"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Registration",
+                "item": "https://iganzeprotocol.github.io/iganze-form/"
+            }]
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="logo.svg" alt="Iganze" class="logo">
+            </div>
+
+            <!-- Form -->
+            <form id="registrationForm" class="registration-form">
+
+                <!-- Full Name -->
+                <div class="form-group fade-in" style="animation-delay: 0.1s">
+                    <label for="fullName">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        Full Name
+                    </label>
+                    <div class="name-group">
+                        <select id="title" name="title" required>
+                            <option value="">Title</option>
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Ms">Ms</option>
+                            <option value="Dr">Dr</option>
+                            <option value="Prof">Prof</option>
+                        </select>
+                        <input type="text" id="fullName" name="fullName" placeholder="Full name" required>
+                    </div>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group fade-in" style="animation-delay: 0.2s">
+                    <label for="email">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- I'd like to -->
+                <div class="form-group fade-in" style="animation-delay: 0.3s">
+                    <label for="purpose">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                        </svg>
+                        I'd like to
+                    </label>
+                    <select id="purpose" name="purpose" required>
+                        <option value="">Please select or type to search</option>
+                        <option value="register">Register for services</option>
+                        <option value="consult">Request a consultation</option>
+                        <option value="info">Get more information</option>
+                        <option value="support">Request support</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Address -->
+                <div class="form-group fade-in" style="animation-delay: 0.4s">
+                    <label for="address">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Address
+                    </label>
+                    <div class="address-group">
+                        <input type="text" id="house" name="house" placeholder="House" required>
+                        <input type="text" id="street" name="street" placeholder="Street" required>
+                        <input type="text" id="town" name="town" placeholder="Town" required>
+                    </div>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group fade-in" style="animation-delay: 0.5s">
+                    <label for="phone">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        Phone Number
+                    </label>
+                    <input type="tel" id="phone" name="phone" placeholder="+250 XXX XXX XXX" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Gender -->
+                <div class="form-group fade-in" style="animation-delay: 0.6s">
+                    <label>
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        Gender
+                    </label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Female" required>
+                            <span class="radio-custom"></span>
+                            Female
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Male" required>
+                            <span class="radio-custom"></span>
+                            Male
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Prefer not to say" required>
+                            <span class="radio-custom"></span>
+                            Prefer not to say
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="gender" value="Not yet" required>
+                            <span class="radio-custom"></span>
+                            Not yet
+                        </label>
+                    </div>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Date of Birth -->
+                <div class="form-group fade-in" style="animation-delay: 0.7s">
+                    <label for="dob">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        Date of Birth
+                    </label>
+                    <input type="date" id="dob" name="dob" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Medical Diagnosis -->
+                <div class="form-group fade-in" style="animation-delay: 0.8s">
+                    <label for="diagnosis">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="12" y1="18" x2="12" y2="12"></line>
+                            <line x1="9" y1="15" x2="15" y2="15"></line>
+                        </svg>
+                        What is the medical diagnosis?
+                    </label>
+                    <select id="diagnosis" name="diagnosis" required>
+                        <option value="">Select from the list</option>
+                        <option value="Autism Spectrum Disorder">Autism Spectrum Disorder</option>
+                        <option value="ADHD">ADHD</option>
+                        <option value="Down Syndrome">Down Syndrome</option>
+                        <option value="Cerebral Palsy">Cerebral Palsy</option>
+                        <option value="Learning Disability">Learning Disability</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Received Services -->
+                <div class="form-group fade-in" style="animation-delay: 0.9s">
+                    <label>
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        Have you or your child ever been diagnosed or received related services?
+                    </label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="receivedServices" value="Yes" required>
+                            <span class="radio-custom"></span>
+                            Yes
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="receivedServices" value="No" required>
+                            <span class="radio-custom"></span>
+                            No
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="receivedServices" value="I don't know" required>
+                            <span class="radio-custom"></span>
+                            I don't know
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="receivedServices" value="Not yet" required>
+                            <span class="radio-custom"></span>
+                            Not yet
+                        </label>
+                    </div>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Impact Description -->
+                <div class="form-group fade-in" style="animation-delay: 1s">
+                    <label for="impact">
+                        <svg class="field-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        How is it or what is giving impact to your child's development?
+                    </label>
+                    <textarea id="impact" name="impact" rows="5"
+                        placeholder="Please describe the developmental impact..." required></textarea>
+                    <span class="error-message"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn fade-in" style="animation-delay: 1.1s">
+                    <span class="btn-text">SUBMIT NOW</span>
+                    <span class="btn-loader"></span>
+                </button>
+
+            </form>
+
+            <!-- Footer -->
+            <div class="footer fade-in" style="animation-delay: 1.2s">
+                <p>Powered by Iganze Protocol</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
